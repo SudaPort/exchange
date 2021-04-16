@@ -7,7 +7,7 @@
     "repositories":[
         {
             "type":"git",
-            "url":"https://github.com/openbankit/stellar-php.git"
+            "url":"https://github.com/SudaPort/stellar-php.git"
         }
     ]
 }
