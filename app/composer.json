@@ -2,7 +2,7 @@
     "require": {
         "phpmailer/phpmailer": "^5.2",
         "aferrandini/phpqrcode": "1.0.1",
-        "atticlab/stellar-php-sdk": "dev-master"
+        "sudaport/stellar-php-sdk": "dev-main"
     },
     "repositories":[
         {
