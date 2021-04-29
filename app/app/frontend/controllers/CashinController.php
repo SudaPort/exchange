@@ -2,8 +2,8 @@
 
 namespace App\Frontend\Controllers;
 
-use \Smartmoney\Stellar\Account;
-use \Smartmoney\Stellar\Payment;
+use \Gurosh\Stellar\Account;
+use \Gurosh\Stellar\Payment;
 
 
 class CashinController extends ControllerBase

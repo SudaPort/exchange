@@ -21,9 +21,9 @@ class Cashin extends \Phalcon\Mvc\Collection
 
     public $date; //date of create order
 
-    public $amount; //how much smartmoney want to buy
+    public $amount; //how much Gurosh want to buy
     
-    public $asset; //asset of smartmoney want to buy
+    public $asset; //asset of Gurosh want to buy
 
     public $cost; //how much cost $amount in other asset
 
@@ -33,7 +33,7 @@ class Cashin extends \Phalcon\Mvc\Collection
 
     public $to; //our wallet for get money from $from
 
-    public $client_to; //client smartmoney wallet for receiving the money
+    public $client_to; //client Gurosh wallet for receiving the money
 
     public $response; //response of payment system
     

@@ -2,7 +2,7 @@
 
 use Phalcon\DI;
 
-use \Smartmoney\Stellar\Payment;
+use \Gurosh\Stellar\Payment;
 
 class IndexTask extends TaskBase
 {

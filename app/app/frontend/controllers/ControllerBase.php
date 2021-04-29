@@ -2,7 +2,7 @@
 
 namespace App\Frontend\Controllers;
 
-use \Smartmoney\Stellar\Account;
+use \Gurosh\Stellar\Account;
 use Phalcon\Translate\Adapter\NativeArray;
 
 

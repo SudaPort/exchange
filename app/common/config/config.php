@@ -3,7 +3,7 @@ $config = new \Phalcon\Config([
     "project" => [
         'production'     => 0,
         'log'            => 1,
-        'title'          => 'exchange.smartmoney.com.ua',
+        'title'          => 'exchange.gurosh.com',
         'admin_name'     => 'admin',
         'admin_email'    => 'no-reply@iam.dk',
         'upload_dir'     => APP_PATH . 'public/uploads',
@@ -33,7 +33,7 @@ $config = new \Phalcon\Config([
 
     "exchange" => [
         "bitcoind" => [
-            'host'          => 'bitcoin.smartmoney.com.ua',
+            'host'          => 'bitcoin.gurosh.com',
             'port'          => 80,
             'user'          => 'bitcoin',
             'pass'          => '6la9W1VqHtji8IwYHOPPmEjp',
@@ -57,13 +57,13 @@ $config = new \Phalcon\Config([
     ],
     
     "cashier" => [
-        "url" => "http://cashier.smartmoney.com.ua/issue",
+        "url" => "http://cashier.gurosh.com/issue",
         "username" => "username",
         "password" => "password"  
     ],
 
     'horizon'  => [
-        'host'    => 'blockchain.smartmoney.com.ua',
+        'host'    => 'blockchain.gurosh.com',
         'port'    => '80',
         'valid_account_types' => [0, 1]
     ],
@@ -73,8 +73,8 @@ $config = new \Phalcon\Config([
         'DUAH',
     ],
     'link' => [
-        'name' => 'AtticLab',
-        'url' => 'http://atticlab.net/'
+        'name' => 'SudaPort',
+        'url' => 'http://SudaPort.com/'
     ],
     'allowed_languages' => ['en', 'ru', 'ua']
 ]);
