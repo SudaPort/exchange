@@ -26,5 +26,5 @@ COPY config/php.ini /usr/local/etc/php/
 COPY config/crontab /crontab_file
 
 COPY ./entrypoint.sh /
-
+RUN ["chmod", "+x", "/entrypoint.sh"]
 CMD ["/entrypoint.sh"]
