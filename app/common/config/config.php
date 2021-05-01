@@ -76,5 +76,5 @@ $config = new \Phalcon\Config([
         'name' => 'SudaPort',
         'url' => 'http://SudaPort.com/'
     ],
-    'allowed_languages' => ['en', 'ru', 'ua']
+    'allowed_languages' => ['en', 'ru', 'ar']
 ]);

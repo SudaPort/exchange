@@ -30,8 +30,8 @@ $messages = [
     "Invalid account type" => 'Невірний тип рахунку',
     "Payment details" => 'Деталі платежу: ',
     "Copyright tag" => 'made by',
-    "English" => 'Англійська',
-    "Ukrainian" => 'Українська',
+    "English" => 'الانجليزية',
+    "Arabic" => 'العربية',
     "Asset" => 'Валюта',
     "No payments" => 'Немає платежів',
 

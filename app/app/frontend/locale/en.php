@@ -31,7 +31,7 @@ $messages = [
     "Payment details" => 'Payment details: ',
     "Copyright tag" => 'made by',
     "English" => 'English',
-    "Ukrainian" => 'Ukrainian',
+    "Arabic" => 'Arabic',
     "Asset" => 'Asset',
     "No payments" => 'No payments',
 
