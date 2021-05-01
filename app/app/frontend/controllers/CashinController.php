@@ -117,7 +117,7 @@ class CashinController extends ControllerBase
         $this->view->assets = $this->config->assets;
 
     }
-
+    // privat24 modified for EBS transaction
     public function privat24Action()
     {
         $errors = [];
