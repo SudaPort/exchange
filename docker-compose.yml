@@ -14,7 +14,7 @@ services:
       - mongo
     networks:
       default:
-        external:
+        external: true
           name: guroshnet
 
   nginx:
@@ -30,7 +30,7 @@ services:
       - php-fpm
     networks:
       default:
-        external:
+        external: true
           name: guroshnet
 
   mongo:
@@ -43,7 +43,7 @@ services:
       - ./storage/mongo:/data/db
     networks:
       default:
-        external:
+        external: true
           name: guroshnet
 
   bower-builder:
@@ -52,5 +52,5 @@ services:
       - ./app:/app
     networks:
       default:
-        external:
+        external: true
           name: guroshnet
