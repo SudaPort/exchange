@@ -16,7 +16,7 @@ services:
       default:
         external:
           name: guroshnet
-            ipv4_address: 172.72.0.5
+            ipv4_address: 188.0.0.5
 
   nginx:
     restart: always
@@ -33,7 +33,7 @@ services:
       default:
         external:
           name: guroshnet
-            ipv4_address: 172.72.0.4
+            ipv4_address: 188.0.0.4
 
   mongo:
     restart: always
@@ -47,7 +47,7 @@ services:
       default:
         external:
           name: guroshnet
-             ipv4_address: 172.72.0.7
+             ipv4_address: 188.0.0.7
 
   bower-builder:
     build: docker/nodejs
@@ -57,4 +57,4 @@ services:
       default:
         external:
           name: guroshnet
-            ipv4_address: 172.72.0.6
+            ipv4_address: 188.0.0.6
