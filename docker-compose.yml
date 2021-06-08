@@ -12,6 +12,9 @@ services:
       - ./.env
     links:
       - mongo
+    networks:
+        docker0:
+        ipv4_address: 172.17.0.5
 
   nginx:
     restart: always
@@ -24,6 +27,9 @@ services:
       - ./logs/nginx:/logs
     links:
       - php-fpm
+    networks:
+        docker0:
+        ipv4_address: 172.17.0.4
 
   mongo:
     restart: always
@@ -33,8 +39,14 @@ services:
       - 27018:27017
     volumes:
       - ./storage/mongo:/data/db
+    networks:
+        docker0:
+        ipv4_address: 172.17.0.7
 
   bower-builder:
     build: docker/nodejs
     volumes:
       - ./app:/app
+    networks:
+        docker0:
+        ipv4_address: 172.17.0.6
