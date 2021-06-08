@@ -13,9 +13,8 @@ services:
     links:
       - mongo
     networks:
-      guroshnet:
-        external: true
-          ipv4_address: 188.0.0.17
+      guroshnet0:
+        ipv4_address: 188.0.0.5
 
   nginx:
     restart: always
@@ -29,9 +28,8 @@ services:
     links:
       - php-fpm
     networks:
-      guroshnet:
-        external: true
-          ipv4_address: 188.0.0.18
+      guroshnet0:
+        ipv4_address: 188.0.0.4
 
   mongo:
     restart: always
@@ -42,14 +40,19 @@ services:
     volumes:
       - ./storage/mongo:/data/db
     networks:
-      guroshnet:
-        external: true
-          ipv4_address: 188.0.0.19
+      guroshnet0:
+        ipv4_address: 188.0.0.7
 
   bower-builder:
     build: docker/nodejs
     volumes:
       - ./app:/app
     networks:
-      guroshnet:
-        external: true
+      guroshnet0:
+        ipv4_address: 188.0.0.6
+
+networks:
+  guroshnet0:
+    external: true
+    name: guroshnet
+
