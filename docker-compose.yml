@@ -41,8 +41,7 @@ services:
       - ./storage/mongo:/data/db
     networks:
         docker0:
-          external: true
-          ipv4_address: 172.17.0.7
+         - ipv4_address: 172.17.0.7
 
   bower-builder:
     build: docker/nodejs
@@ -50,5 +49,4 @@ services:
       - ./app:/app
     networks:
         docker0:
-          external: true
-          ipv4_address: 172.17.0.6
+         - ipv4_address: 172.17.0.6
